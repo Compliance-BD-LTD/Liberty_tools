@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+    themes: all;
+  }
+
+  html, body{
+  overflow-x: hidden;
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+} 
+body.ReactModal__Body--open {
+  overflow: auto !important;
+  position: static !important;
+}
